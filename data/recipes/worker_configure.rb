@@ -1,5 +1,3 @@
-require 'digest/md5'
-
 # Cookbook Name:: betterdoctor-data
 # Recipe:: worker
 #
@@ -8,7 +6,7 @@ require 'digest/md5'
 # All rights reserved - Do Not Redistribute
 
 # rsyslog configuration
-cookbook_file "~/foosh.txt" do
+cookbook_file "/home/ubunutfoosh.txt" do
   source "testing.txt"
   mode '0644'
 end
